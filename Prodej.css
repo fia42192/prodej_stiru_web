@@ -17,22 +17,21 @@
     padding: 0 30px;
     display: flex;
     align-items: center;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 25px;
-    background-color: #77ACA2;
     text-decoration: none;
     transition: color 0.3s;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
 }
 
+
+
 .sidebar a:hover {
-    background-color: lightblue;
     transition: 0.3s;
-    transform: scale(1.05);
-    background-color: #79fe9b;
-    color: black;
+    transform: scale(1.0);
+    color: #cccc00;
 }
 
 .sidebar li:first-child {
@@ -206,8 +205,10 @@
 
 p {
     font-size: 20px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 10px;
+    margin-left: 10px;;
     color: white;
 }
 
@@ -223,4 +224,70 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
     color: white;
+}
+
+.transparent {
+    color: transparent;
+}
+
+.kusů {
+    color: rgb(16, 247, 16);
+}
+
+.stir {
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+/* @media (max-width: 900px) {
+    .stir {
+        display: none;
+    }
+}
+
+@media (min-width: 901px) {
+    .stir1 {
+        display: none;
+        width: auto;
+        border-radius: 10px;
+        border: 3px solid black;
+        margin-left: 10px;
+    }
+} */
+
+@media (max-width: 900px) {
+    .stir {
+        display: none;
+    }
+
+    .transparent1 {
+        
+        color: transparent;
+    }
+
+    .stir1 {
+        display: block; /* nebo inline-block, podle potřeby */
+        width: 96%;
+        border-radius: 10px;
+        border: 3px solid black;
+        /* margin-left: 10px; */
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 901px) {
+    .stir1 {
+        display: none;
+    }
+
+    .transparent1 {
+        display: none;
+        color: transparent;
+    }
 }

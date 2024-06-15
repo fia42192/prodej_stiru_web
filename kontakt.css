@@ -17,22 +17,21 @@
     padding: 0 30px;
     display: flex;
     align-items: center;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 25px;
-    background-color: #77ACA2;
     text-decoration: none;
     transition: color 0.3s;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
 }
 
+
+
 .sidebar a:hover {
-    background-color: lightblue;
     transition: 0.3s;
-    transform: scale(1.05);
-    background-color: #79fe9b;
-    color: black;
+    transform: scale(1.0);
+    color: #cccc00;
 }
 
 .sidebar li:first-child {
@@ -224,3 +223,9 @@ h2 {
     margin-left: 10px;
     color: white;
 }
+
+.ig {
+    color: white;
+    text-decoration: none;
+}
+

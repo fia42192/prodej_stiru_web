@@ -17,22 +17,21 @@
     padding: 0 30px;
     display: flex;
     align-items: center;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 25px;
-    background-color: #77ACA2;
     text-decoration: none;
     transition: color 0.3s;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
 }
 
+
+
 .sidebar a:hover {
-    background-color: lightblue;
     transition: 0.3s;
-    transform: scale(1.05);
-    background-color: #79fe9b;
-    color: black;
+    transform: scale(1.0);
+    color: #cccc00;
 }
 
 .sidebar li:first-child {
@@ -208,6 +207,8 @@ p {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     color: white;
 }
 
@@ -223,4 +224,40 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
     color: white;
+}
+
+.transparent {
+    color: transparent;
+}
+
+.setup {
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+body, html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none; /* pro Firefox */
+}
+
+body::-webkit-scrollbar, html::-webkit-scrollbar {
+    display: none; /* pro Chrome, Safari a Opera */
+}
+
+.body::-webkit-scrollbar {
+    display: none; /* pro Chrome, Safari a Opera */
+}
+
+@media (max-width: 768px) {
+    .setup {
+        width: 86%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
