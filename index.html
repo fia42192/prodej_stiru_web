@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Úvodní stránka</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="background.css">
+    <link rel="icon" href="ikona.png">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="border">
+        <ul class="panel">
+            <li class="hideOnMobile aktualnistranka"><a href="index.html">Úvodní stránka</a></li>
+            <li class="hideOnMobile stranky"><a href="Prodej.html">Prodej</a></li>
+            <li class="hideOnMobile stranky"><a href="chov.html">Chov štírů</a></li>
+            <li class="hideOnMobile stranky"><a href="kontakt.html">Kontakt</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><img src="menu_24dp_FILL0_wght400_GRAD0_opsz24.svg"></a></li>
+        </ul>
+        <ul class="sidebar">
+            <li class="close-stranky" onclick="hideSidebar()"><a href="#"><img src="close_24dp_FILL0_wght400_GRAD0_opsz24.svg"></a></li>
+            <li class="aktualnistranka"><a href="index.html">Úvodní stránka</a></li>
+            <li class="stranky"><a href="Prodej.html">Prodej</a></li>
+            <li class="stranky"><a href="chov.html">Chov štírů</a></li>
+            <li class="stranky"><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+
+
+    <div class="content">
+        <h1>Úvodní stránka</h1>
+        <p>Vítejte na naší stránce</p>
+        <p>Pokud hledáte štíry Tityus Stigmurus na prodej, nebo chcete vědět něco o jejich chovu, jste tu správně!</p>
+    </div>
+
+    <div class="galerie content">
+        <h2>Galerie</h2>
+        <div class="galerie-photos">
+            <img class="stir1" src="stir_1.jpg" alt="štír">
+            <img class="stir2" src="stir_2.jpg" alt="štír">
+            <img class="stir3" src="stir_mladata.jpg" alt="štír">
+            <img class="stir4" src="stir_UV.jpg" alt="štír">
+        </div>
+    </div>
+    <p class="footer">© 2024 Štíři Tityus Stigmurus</p>
+
+</body>
+</html>
