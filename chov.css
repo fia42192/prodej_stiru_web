@@ -243,6 +243,10 @@ body, html {
     scrollbar-width: none; /* pro Firefox */
 }
 
+body {
+    margin-top: 0px;
+}
+
 body::-webkit-scrollbar, html::-webkit-scrollbar {
     display: none; /* pro Chrome, Safari a Opera */
 }
